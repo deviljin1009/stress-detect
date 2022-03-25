@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+
+
+.popup-background {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-container {
+    border-radius: 5px;
+    height: 750px;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(223, 217, 165);
+    text-align: center;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+.popup-container p, a {
+    font-size: 13px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.popup-container a {
+    padding: 2%;
+    background-color: rgb(135, 209, 133);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 0;
+}
+
+.popup-container a:hover {
+    background-color: rgb(89, 153, 87);
+    color: white;
+}
+
+.popup-container h2 {
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+
+.popup-container h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-left: 2%;
+}

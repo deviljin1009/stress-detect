@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background:linear-gradient(rgb(228, 218, 218), rgba(189, 178, 178, 0.9)),  url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0f57ce83-c7df-40bd-8332-d04ca17322f5/d1bed6i-b7bb32d0-89cf-49ae-8211-992c26e928cd.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBmNTdjZTgzLWM3ZGYtNDBiZC04MzMyLWQwNGNhMTczMjJmNVwvZDFiZWQ2aS1iN2JiMzJkMC04OWNmLTQ5YWUtODIxMS05OTJjMjZlOTI4Y2QuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jdcIqmb4wtFbR5yTXIwD1_jNLNYLDGNVQM4qtS29Ob8");
+    background-size: cover;
+    background-position: center;
+  }
+
+.box{
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    background: rgb(185, 195, 202);
+    border-radius: 20px;
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.description{
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 5%;
+    text-transform: capitalize;
+    width: 85%;
+    margin-bottom: 5%;
+}
+
+.reminder{
+    font-size: 100%;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 85%;
+    margin-bottom: 3%;
+    color: red;
+    text-align: center;
+}
+
+#container {
+	margin: 0px auto;
+	width: 500px;
+	height: 375px;
+	border: 10px #333 solid;
+}
+#videoElement {
+	width: 500px;
+	height: 375px;
+	background-color: #666;
+}
+
+.button{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+a.red{
+    display: block;
+    width: 150px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    margin-right: 10%;
+    padding:8px;
+    border-radius: 5px;
+}
+
+a.green{
+    display: block;
+    width: 150px;
+    background-color: rgb(155, 238, 203);
+    margin-left: 10%;
+    padding:8px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+a.red:hover,a.green:hover{
+    transform: scale(1.08);
+}

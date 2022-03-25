@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script2.js"></script>
+  <link rel="stylesheet" href="css/float.css">
+
+  <style>
+    
+
+    canvas {
+      position: absolute;
+      left: 3%;
+      top:3%;
+      overflow: hidden;
+    }
+
+    #video{
+      position: absolute;
+      left: 3%;
+      top:3%;
+    }
+
+    .countdown{
+  position: absolute;
+  left: 80%;
+  top:1%;
+  width:30%;
+  height:30%;
+}
+
+
+
+  </style>
+</head>
+
+<body>
+  <video id="video" width="450" height="300" autoplay muted playsinline="true"></video>
+
+
+  <div class="countdown">
+    <div id="app"></div>
+    </div>
+  
+  <div class="container">
+      <div class="big_text text">
+        <h1><span class="color_blue">Ready</span></h1>
+      </div>
+  
+      <div class="small_texts">
+        <p>
+          <script>
+              var myArray = [
+              "Calm",
+              "Relax",
+              "Chill"
+              ];
+      
+              var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+              document.write(randomItem);
+          </script>
+        </p>
+        <p >
+          <script>
+            var myArray = [
+            "Admire",
+            "Success",
+            "Improve"
+            ];
+    
+            var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+            document.write(randomItem);
+        </script>
+        </p>
+        <p class="text_3">
+          <script>
+            var myArray = [
+            "Adore",
+            "Beloved",
+            "Enjoy"
+            ];
+    
+            var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+            document.write(randomItem);
+        </script>
+        </p>
+        <p class="text_4">
+          <script>
+            var myArray = [
+            "Enrich",
+            "Fun",
+            "Ideal"
+            ];
+    
+            var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+            document.write(randomItem);
+        </script>
+        </p>
+        <p class="text_5">
+          <script>
+            var myArray = [
+            "Keen",
+            "Majestic",
+            "Lovely"
+            ];
+    
+            var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+            document.write(randomItem);
+        </script>
+        </p>
+        <p class="text_6">
+          <script>
+            var myArray = [
+            "Innovative",
+            "Greatest",
+            "Comical"
+            ];
+    
+            var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+            document.write(randomItem);
+        </script>
+        </p>
+        <p class="text_7">
+          <script>
+            var myArray = [
+            "Classy",
+            "Charismatic",
+            "Bubbly"
+            ];
+    
+            var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+            document.write(randomItem);
+        </script>
+        </p>
+        <p class="text_8">
+          <script>
+            var myArray = [
+            "Amuse",
+            "Awesome",
+            "Friendly"
+            ];
+    
+            var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+            document.write(randomItem);
+        </script>
+        </p>
+        <p class="text_9">
+          <script>
+            var myArray = [
+            "Acclaimed",
+            "Lively",
+            "Fashion"
+            ];
+    
+            var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+            document.write(randomItem);
+        </script>
+        </p>
+        <p class="text_10">
+          <script>
+            var myArray = [
+            "Handsome",
+            "Pretty",
+            "Gorgeous"
+            ];
+    
+            var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+            document.write(randomItem);
+        </script>
+        </p class="text_11">
+        <p>
+          <script>
+            var myArray = [
+            "Ecstatic",
+            "Enticing",
+            "Exaultant"
+            ];
+    
+            var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+            document.write(randomItem);
+        </script>
+        </p>
+        <p class="text_12">
+          <script>
+            var myArray = [
+            "Genuine",
+            "Greatest",
+            "Hypnotic"
+            ];
+    
+            var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+            document.write(randomItem);
+        </script>
+        </p>
+        <p class="text_13">
+          <script>
+            var myArray = [
+            "Joy",
+            "Motivated",
+            "Snappy"
+            ];
+    
+            var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+            document.write(randomItem);
+        </script>
+        </p>
+      </div>
+      
+    </div>
+
+  
+
+</body>
+</html>
+
+<script src = "javascript/countdown2.js"></script>

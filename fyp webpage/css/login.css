@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #34495e;
+
+  }
+
+  #app {
+
+    background: #0a0a0a;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(170, 170, 170, 0.6), rgba(0, 0, 0, 0.9)),  url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fd39b0c9-fc35-4a4e-96c7-e4639e0887d7/ddul5lc-a58bce6f-56c1-469d-b5aa-a3b22efa95aa.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZkMzliMGM5LWZjMzUtNGE0ZS05NmM3LWU0NjM5ZTA4ODdkN1wvZGR1bDVsYy1hNThiY2U2Zi01NmMxLTQ2OWQtYjVhYS1hM2IyMmVmYTk1YWEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bkU0PVc6Qgpau7maeC0-yWijDpFv-jtRrKzmTpWAfRU");
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+  }
+  
+  .box{
+  
+    width: 18%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #c9b2a4;
+    text-align: center;
+    border-radius: 25px;
+    z-index: 0.1;
+  }
+
+  .box .logo{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 150px;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    background: url("../log.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: 1;
+    margin-left: 0;
+}
+
+.signup{
+  color: white;
+  font-weight: bold;
+}
+  
+  .box h1{
+
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .box a{
+    color: white;
+    border-radius: 0px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+  }
+
+  .box a:hover{
+    color: #000000;
+    
+  }
+
+  
+
+  .box input[type = "email"],.box input[type = "password"]{
+  
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    background-color: #e0d2c9;
+  
+  }
+  
+  .box input[type = "email"]:focus,.box input[type = "password"]:focus{
+  
+    border-color: #2ecc71;
+
+  }
+  
+  .box input[type = "submit"]{
+  
+    border:0;
+    background: none;  
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: rgb(48, 45, 45);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    background-color: #e0d2c9;
+  
+  }
+  
+  .box input[type = "submit"]:hover{
+  
+    background: #2ecc71;
+  
+  }
+
+
+
+
+ 

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background:linear-gradient(rgb(228, 218, 218), rgba(189, 178, 178, 0.9)),  url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0f57ce83-c7df-40bd-8332-d04ca17322f5/d1bed6i-b7bb32d0-89cf-49ae-8211-992c26e928cd.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBmNTdjZTgzLWM3ZGYtNDBiZC04MzMyLWQwNGNhMTczMjJmNVwvZDFiZWQ2aS1iN2JiMzJkMC04OWNmLTQ5YWUtODIxMS05OTJjMjZlOTI4Y2QuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jdcIqmb4wtFbR5yTXIwD1_jNLNYLDGNVQM4qtS29Ob8");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.box{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 800px;
+    height: 800px;
+    background-color: rgb(185, 195, 202);
+    border-radius: 10px;
+    opacity:0.8;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.header{
+    font-weight: bolder;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5%;
+    font-size: 140%;
+    text-align: center;
+    width: 85%;
+}
+
+.frame{
+    height: 80%;
+    width: 80%;
+    background: rgb(219, 210, 210);
+    border-radius: 10px;
+    overflow: auto;
+    margin-top: 3%;
+}
+
+.question{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    font-weight: bold;
+    font-size: 120%;
+    text-align: justify;
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+select{
+    display: block;
+    padding: 5px;
+    align-items: center;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+.frame input[type = "submit"]{
+  
+    border:0;
+    background: none;  
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  
+  }
+
+  .frame input[type = "submit"]:hover{
+  
+    background: #2ecc71;
+  
+  }
+
+  ::-webkit-scrollbar {
+    width: 3px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 3px rgba(252, 252, 252, 0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.459); 
+}
